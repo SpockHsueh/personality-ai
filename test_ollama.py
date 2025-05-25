@@ -6,7 +6,7 @@ import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.core.ollama_client import OllamaClient, get_ollama_client, simple_chat, simple_generate
+from src.core.ollama_client import OllamaClient, get_ollama_client, simple_chat
 import ollama
 import logging
 
